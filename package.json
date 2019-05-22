@@ -1,0 +1,29 @@
+{
+  "name": "reverse-sourcemap-tool",
+  "version": "1.0.4",
+  "description": "Reverse engineering JavaScript and CSS sources from sourcemaps",
+  "main": "index.js",
+  "bin": {
+    "reverse-sourcemap-tool": "bin/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "optionator": "^0.8.2",
+    "source-map": "^0.7.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
+    "nyc": "^14.1.1",
+    "tape": "^4.10.1"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lunnlew",
+  "license": "MIT"
+}
