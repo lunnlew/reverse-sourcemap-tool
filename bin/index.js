@@ -7,6 +7,6 @@ const fs = require('fs-extra');
 const usage = require('../lib/usage');
 const reverse = require('../lib/reverse');
 
-let opts = usage.optsParser(process.argv, usage.parsePackageInfo());
-reverse.output(reverse.collectFilesList(opts),opts);
+reverse.exec(usage.optsParser(process.argv, usage.parsePackageInfo()));
+
 console.log("reverse completed");
