@@ -26,5 +26,5 @@ Usage: reverse-sourcemap-tool [options] <file|directory>
   -M, --match String       Regular expression for matching and filtering files - default: \.map$
   -r, --recursive          Recursively search matching files
 
-Version 1.0.6
+Version 1.0.7
 ```
