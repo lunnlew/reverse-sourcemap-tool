@@ -24,6 +24,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunnlew/reverse-sourcemap-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunnlew/reverse-sourcemap-tool/issues"
+  },
+  "homepage": "https://github.com/lunnlew/reverse-sourcemap-tool#readme",
   "author": "lunnlew",
   "license": "MIT"
 }
