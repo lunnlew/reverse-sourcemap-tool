@@ -23,7 +23,7 @@ Usage: reverse-sourcemap-tool [options] <file|directory>
   -V, --version            Version number
   -v, --verbose            Verbose output, will print which file is currently being processed
   -o, --output-dir String  Output directory - default: .
-  -M, --match String       Regular expression for matching and filtering files - default: \.map$
+  -M, --match String       Regular expression for matching and filtering files - default: \.(map|js|css)$
   -r, --recursive          Recursively search matching files
 
 Version 1.0.8
