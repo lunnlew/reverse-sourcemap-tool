@@ -26,5 +26,5 @@ Usage: reverse-sourcemap-tool [options] <file|directory>
   -M, --match String       Regular expression for matching and filtering files - default: \.(map|js|css)$
   -r, --recursive          Recursively search matching files
 
-Version 1.0.8
+Version 1.0.9
 ```
